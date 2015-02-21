@@ -1,5 +1,16 @@
+// Import partials from `Bootstrap` (defaults to `_sass`)
+@import
+        "bootstrap"
+;
+
 /* Custom page CSS
 -------------------------------------------------- */
+
+/* Site header */
+.site-header {
+    border-top: 5px solid #424242;
+}
+
 
 /* Navbar Styles
 -------------------------------------------------- */
@@ -23,6 +34,7 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
