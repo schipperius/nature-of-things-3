@@ -2,22 +2,23 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="jumbotron">
+  <h1>the Nature of Things</h1>
+  <p> &ndash; patterns, structures, processes and such
+  </p>
 </div>
+
+<blockquote>
+  <p>The Tao that can be told
+is not the eternal Tao.</p>
+  <footer>Lao-tzu in <cite title="Source Title">Tao Te Ching. Translation by Stephen Mitchell. 1988</cite></footer>
+</blockquote>
+
+<blockquote>
+  <p>The Cosmos is all that is or was or ever will be.</p>
+  <footer>Carl Sagan in <cite title="Source Title">Cosmos - a personal journey, 1980.</cite></footer>
+</blockquote>
+
+<p>The English word spirit comes from the Latin spiritus, meaning "breath"</p> 
+
+<p>Science (from Latin scientia, meaning "knowledge"[2]) is a systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about nature and the universe.</p>
