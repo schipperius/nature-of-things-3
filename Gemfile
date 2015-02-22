@@ -5,3 +5,7 @@ gem 'jekyll'
 gem 'rack-jekyll'
 gem 'kramdown', '~> 1.5.0'
 gem "bootstrap-sass", "~> 3.3.3"
+gem 'jekyll-assets'
+gem 'uglifier', '~> 2.7.0'
+gem 's3_website', '~> 2.8.3'
+gem 'dotenv', '~> 1.0.2'
