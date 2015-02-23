@@ -9,7 +9,7 @@ url: "http://schipperius.org" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 's3_website.yml']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 's3_website.yml', 'Rakefile']
 
 #
 # Plugin: jekyll-assets
