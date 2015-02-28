@@ -32,4 +32,4 @@ tag_dir: tags
 root: /
 permalink: /:title
 
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 's3_website.yml', 'Rakefile', 'vendor', 'Procfile]
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 's3_website.yml', 'Rakefile', 'vendor', 'Procfile']
