@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.5'
+ruby '2.0.0'
 
 gem 'bundler'
 gem 'jekyll', '~> 2.5.3'
@@ -18,4 +18,3 @@ gem 'uglifier', '~> 2.7.0'
 gem 's3_website', '~> 2.8.3'
 gem 'dotenv', '~> 1.0.2'
 gem 'rake', '~> 10.4.2'
-
