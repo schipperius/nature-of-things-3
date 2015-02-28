@@ -23,8 +23,7 @@ url: "http://schipperius.org" # the base hostname & protocol for your site
 markdown: kramdown
 
 sass:
-    sass_dir: assets/_sass
-    style: :compressed
+    sass_dir: _sass
 
 plugins: plugins    
 category_dir: categories
@@ -33,4 +32,4 @@ tag_dir: tags
 root: /
 permalink: /:title
 
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 's3_website.yml', 'Rakefile']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 's3_website.yml', 'Rakefile']
