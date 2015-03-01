@@ -6,7 +6,8 @@ title: "What is Spirituality"
 date: 2015-02-21
 
 categories: [Spirituality]
-tags: [shit, piss]
+tags: [origins, history]
+
 
 int1: I’m standing here in the printing room at the Museum Plantin-Moretus in Antwerp Belgium. This was the stately town-home, and the printing and publishing house of Christophe Plantin, a famous 16th Century publisher.
 

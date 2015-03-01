@@ -1,35 +1,23 @@
-# Site Settings
-# ----------------------- #
-# Main Configs            #
+# Configuration
 # ----------------------- #
 
-url: http://schipperius.org
+# Where things are
+permalink: '/:title'
+plugins: 'plugins'
+category_dir: 'categories'
+category_title_prefix : 'Category: '
+tag_dir: 'tags'
+date_format: "ordinal"
+sass:
+  sass_dir: '_sass'
+
+# Handling Reading
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 's3_website.yml', 'Rakefile', 'vendor', 'Procfile']
+
+# Outputting
+url: "http://schipperius.org" # the base hostname & protocol for your site
 title: the Nature of Things
 subtitle: an exploration of the natural world via patterns, structures, processes and such
 author: Mark Schipper
 simple_search: https://www.google.com/search
 description: the Nature of Things; an exploration of the natural world via patterns, structures, processes and such
-
-# Default date format is "ordinal" (resulting in "July 22nd 2007")
-# You can customize the format as defined in
-# http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
-# Additionally, %o will give you the ordinal representation of the day
-date_format: "ordinal"
-
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://schipperius.org" # the base hostname & protocol for your site
-
-# Build settings
-markdown: kramdown
-
-sass:
-    sass_dir: _sass
-
-plugins: plugins    
-category_dir: categories
-tag_dir: tags
-
-root: /
-permalink: /:title
-
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 's3_website.yml', 'Rakefile', 'vendor', 'Procfile']

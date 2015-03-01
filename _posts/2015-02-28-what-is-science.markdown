@@ -3,10 +3,10 @@ number: 2
 
 layout: post
 title: "What is Science"
-date: 2015-02-21
+date: 2015-02-28
 
 categories: [Science]
-tags: [shit, suck]
+tags: [About]
 
 int1: I'm standing here at the mouth of the Oude Rijn, an ancient branch of the Rhine river that formed the northernmost boundary of the Roman Empire.
 
