@@ -63,7 +63,7 @@ module Jekyll
       @name = 'atom.xml'
       self.process(@name)
       # Read the YAML data from the layout page.
-      self.read_yaml(File.join(base, '_includes'), 'tag_feed.xml')
+      self.read_yaml(File.join(base, '_includes'), 'aside', 'tag_feed.xml')
       self.data['tag']    = tag
       # Set the title for this page.
       title_prefix             = site.config['tag_title_prefix'] || 'Related Articles: '

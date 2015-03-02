@@ -22,13 +22,13 @@
     
     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
     <span class="small-date">
-    	{% include date.html %}
-				{{ post.date | '%B %d, %Y' }}
+    	{% include post/date.html %}
+			{{ post.date | '%B %d, %Y' }}
 		</span>
   	</h4>
 		<h4>
-			{% include categories.html %} |
-			{% include tags.html %}
+			{% include post/categories.html %} |
+			{% include post/tags.html %}
 		</h4>
 		<h3 class="first-letter"><small><span class="first-line">{{ page.int1-lin1 }}</span> <span class="last-line">{{ page.int1-lin2 }}<sup class="footnote"> <a href="#{{ page.int1-fn }}">[2]</a></sup></span></small>
 		</h3>

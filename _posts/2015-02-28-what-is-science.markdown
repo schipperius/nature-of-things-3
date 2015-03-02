@@ -2,7 +2,7 @@
 number: 2
 
 layout: post
-title: "What is Science"
+title: "What is This"
 date: 2015-02-28
 
 categories: [Science]
@@ -17,8 +17,6 @@ int1-lin2: an ancient branch of the Rhine river that formed the northernmost bou
 fn1: <li id="fn:3.1">This is a modified image showing one of the two oldest printing presses in the world located at the <a href="http://www.museumplantinmoretus.be/">Museum Plantin-Moretus</a>. This image was taken by <a href="http://www.twardoch.com/">Adam Twardoch</a> and is viewable on his <a href="http://www.flickr.com/photos/adamt/3630138993/">Flikr Photostream</a>. Image retrieved February 3, 2013. <a href="#fnref:3.1">&#8617;</a></li>
 
 ---
-What is Science
-
 Penatibus in eu phasellus porttitor dapibus habitasse magna porta non facilisis augue. 
 
 Aenean etiam est? Nec rhoncus enim in. Pulvinar aliquam duis amet dis, tincidunt rhoncus tortor pulvinar, integer. 

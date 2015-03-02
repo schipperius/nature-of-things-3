@@ -2,14 +2,18 @@
 # ----------------------- #
 
 # Where things are
-permalink: '/:title'
-plugins: 'plugins'
-category_dir: 'categories'
-category_title_prefix : 'Category: '
-tag_dir: 'tags'
+root: /
+permalink: /:title
+
+plugins: plugins    
+category_dir: categories
+tag_dir: tags
+
 date_format: "ordinal"
+
 sass:
-  sass_dir: '_sass'
+    sass_dir: assets/_sass
+    style: :compressed
 
 # Handling Reading
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 's3_website.yml', 'Rakefile', 'vendor', 'Procfile']

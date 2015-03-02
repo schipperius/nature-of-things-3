@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
+  {% include main/head.html %}
   <body>
 
-    {% include header.html %}
+    {% include main/header.html %}
 
     <div class="container" role="main">
 
@@ -11,12 +11,12 @@
            {{ content }}
         </div>
         <div class="col-md-4">
-          {% include aside.html %}
+          {% include aside/aside_list.html %}
         </div>
 
     </div> <!-- /.container -->
 
-    {% include footer.html %}
+    {% include main/footer.html %}
 
   </body>
 </html>
