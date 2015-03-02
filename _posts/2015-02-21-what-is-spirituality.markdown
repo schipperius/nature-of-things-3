@@ -2,11 +2,11 @@
 number: 1
 
 layout: post
-title: "What is That"
+title: "Mythology"
 date: 2015-02-21
 
-categories: [category]
-tags: [tag]
+categories: [Mythology]
+tags: [creation, myth]
 
 
 int1: Nascetur nisi tortor sagittis? Egestas massa, sociis turpis scelerisque ac, cras hac, sit pulvinar magna a dignissim odio. Massa porta! Aliquet, odio in nec! Tempor platea purus! Eu, rhoncus in? 

@@ -12,7 +12,7 @@ tag_dir: tags
 date_format: "ordinal"
 
 sass:
-    sass_dir: assets/_sass
+    sass_dir: _sass
     style: :compressed
 
 # Handling Reading
@@ -25,3 +25,4 @@ subtitle: an exploration of the natural world via patterns, structures, processe
 author: Mark Schipper
 simple_search: https://www.google.com/search
 description: the Nature of Things; an exploration of the natural world via patterns, structures, processes and such
+
