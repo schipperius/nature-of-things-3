@@ -26,3 +26,25 @@ author: Mark Schipper
 simple_search: https://www.google.com/search
 description: the Nature of Things; an exploration of the natural world via patterns, structures, processes and such
 
+gems: ['jekyll/scholar']
+
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+  note:

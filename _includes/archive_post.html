@@ -1,14 +1,20 @@
 <header class="row page-header">
 
 	<div class="col-md-4 pull-left">
-    <a href="{{ root_url }}{{ post.url }}" class="thumbnail">
-		  <img class="img-responsive" src="http://placehold.it/1024x768">
-			{% if post.img1-s-lan %}
-				{% include arc-img-lan.html %}
-			{% elsif post.img1-s-por %}
-				{% include arc-img-por.html %}
-			{% endif %}
-    </a>
+		<ul class="thumbnails">
+      <div class="thumbnail">
+				{% if post.img1-s-lan %}
+					<a href="{{ root_url }}{{ post.url }}">
+	<img src="{{ post.img1-m-lan }}" title="{{ page.img1-title }}" alt="{{ page.img1-alt }}" width="{{ post.img1-m-wd-lan }}" height="{{ post.img1-m-ht-lan }}">
+</a>
+				{% elsif post.img1-s-por %}
+					<a href="{{ root_url }}{{ post.url }}">
+	<img src="{{ post.img1-m-por }}" title="{{ page.img1-title }}" alt="{{ page.img1-alt }}" width="{{ post.img1-m-wd-por }}" height="{{ post.img1-m-ht-por }}">
+</a>
+
+				{% endif %}
+	    </div>
+  	</ul>		
 	</div>
 
 	<div class="col-md-8 pull-right">
@@ -31,7 +37,7 @@
 		</span>
     </h5>
 	  <p class="article-intro">
-	    {{post.int1 | truncate:250 }}
+	    {{post.int | truncate:250 }}
 	    <a class="read-on" href="{{ root_url }}{{ post.url }}"> continued &rarr;</a> 
 	  </p>
 	</div>

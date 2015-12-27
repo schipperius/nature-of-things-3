@@ -20,3 +20,5 @@ gem 'uglifier', '~> 2.7.0'
 gem 's3_website', '~> 2.8.3'
 gem 'dotenv', '~> 1.0.2'
 gem 'rake', '~> 10.4.2'
+
+gem 'jekyll-scholar', '~> 4.3.5'

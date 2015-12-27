@@ -3,38 +3,47 @@
 
 {% unless page.no_header %}
 
-<div class="row ">
+<div class="row">
 
-	<div id="{{ page.img1-fnref}}" class="col-md-4 article-image">
+	<div id="{{ page.img1-fnref}}" class="col-md-5 article-image">
 	  <div class="img-thumbnail">
-	  	<img class="img-responsive img-rounded" src="http://placehold.it/1024x768">
+			{% if page.img1-m-lan %}
+				<img src="{{ page.img1-m-lan }}"  title="{{ page.img1-title }}" alt="{{ page.img1-alt }}" width="{{ page.img1-m-wd-lan }}" height="{{ page.img1-m-ht-lan }}" class="img-responsive img-rounded">
+			{% elsif page.img1-m-por %}
+				<img src="{{ page.img1-m-por }}"  title="{{ page.img1-title }}" alt="{{ page.img1-alt }}" width="{{ page.img1-m-wd-por }}" height="{{ page.img1-m-ht-por }}">
+			{% endif %}
 			</br>
+			<div class="caption">
+        <p>{{ page.img1-title }}</p>
+      </div>
 			<sup class="footnote pull-right">
 		  	<a href="#{{ page.img1-fn }}">[1]</a>
 		  </sup>
 	  </div>
 	</div>
-
-	<div id="{{ page.int1-fnref }}" class="col-md-8">
+	
+	<div id="{{ page.int1-fnref }}" class="col-md-7">
     <h4 id="{{ page.int1-fnref}}" class="accent">
-		#{{ page.number }} {{ page.title }} {{ page.subtitle }}
-    
-    
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <span class="small-date">
-    	{% include post/date.html %}
-			{{ post.date | '%B %d, %Y' }}
-		</span>
+		#{{ page.number }} {{ page.title }} {{ page.subtitle }} <small> - {{ page.date | date: "%b %-d, %Y" }}</small>
   	</h4>
+  	
+  	<h4><small>A {{ minutes }} minute read</small></h4>
+	
 		<h4>
 			{% include post/categories.html %} |
 			{% include post/tags.html %}
 		</h4>
-		<h3 class="first-letter"><small><span class="first-line">{{ page.int1-lin1 }}</span> <span class="last-line">{{ page.int1-lin2 }}<sup class="footnote"> <a href="#{{ page.int1-fn }}">[2]</a></sup></span></small>
+		
+		<h3><small><span>{{ page.int1 }}</span> <sup class="footnote"> <a href="#{{ page.int1-fn }}">[2]</a></sup></span></small>
 		</h3>
 		<br/>		
 	</div>
 
 </div>
+
+</br>
+
+
+
 
 {% endunless %}
